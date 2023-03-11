@@ -1,0 +1,188 @@
+.home {
+  background: url("../assets/home/background-home-mobile.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 100vh;
+}
+
+.home .text-container {
+  margin: 0 auto;
+}
+
+.home .subh3 {
+  font-size: 16px;
+  line-height: 19.2px;
+  text-align: center;
+  color: var(--gray);
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+.home .feature-text {
+  font-size: 80px;
+  line-height: 100px;
+  text-align: center;
+  color: var(--white);
+  padding: 1rem 0 1rem 0;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Bellefair";
+}
+
+.home .body-text {
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--gray);
+  max-width: 327px;
+  margin: 0 auto;
+}
+
+.home .circle-container {
+  padding-bottom: 15%;
+}
+
+.home .circle {
+  max-width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto auto auto;
+}
+
+.home .explore-btn {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 20px;
+  letter-spacing: 1.25px;
+  line-height: 22.92px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 325px) {
+  .home .feature-text {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .home {
+    background: url("../assets/home/background-home-tablet.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+  }
+
+  .home .text-container {
+    margin: 5rem auto;
+  }
+
+  .home .subh3 {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+  }
+
+  .home .feature-text {
+    font-size: 150px;
+    padding: 2rem 0 2rem 0;
+    line-height: 150px;
+  }
+
+  .home .body-text {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 444px;
+  }
+
+  .home .circle-container {
+    padding-bottom: 5rem;
+  }
+
+  .home .circle {
+    max-width: 242px;
+    height: 242px;
+    margin: 7rem auto auto auto;
+  }
+
+  .home .explore-btn {
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 36.67px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home {
+    background: url("../assets/home/background-home-desktop.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .home .content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100vw; */
+    max-height: calc(100vh - 132px);
+    padding: 5% 0;
+  }
+
+  .home .text-container {
+    width: 450px;
+    height: 382px;
+    margin: 0;
+    margin-top: 10%;
+    padding: 0;
+  }
+
+  .home .text-container .subh3 {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    padding: 0;
+    text-align: left;
+  }
+
+  .home .feature-text {
+    padding: 1.5rem 0 1.5rem 0;
+    line-height: 172px;
+    text-align: left;
+  }
+
+  .home .body-text {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    max-width: initial;
+  }
+
+  .home .circle-container {
+    padding-bottom: 0;
+    margin-top: 15%;
+  }
+
+  .home .circle {
+    width: 274px;
+    max-width: 274px;
+    height: 274px;
+    margin: 0;
+    align-self: flex-end;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .home .circle:hover,
+  .home .cirle:active {
+    box-shadow: 0 0 0 88px rgba(255, 255, 255, 0.1);
+  }
+
+  .home .explore-btn:hover,
+  .home .explore-btn:active {
+    cursor: pointer;
+  }
+}
